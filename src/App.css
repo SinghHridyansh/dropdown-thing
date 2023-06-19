@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+.App {
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+.textArea {
+  width: 30vw;
+  height: 100px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+select {
+  width: 10vw;
+  height: 30px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+h2 {
+  font-size: 40px;
+}
+p {
+  font-size: 30px;
+  color: white;
+  font-weight: 5s00;
+}
